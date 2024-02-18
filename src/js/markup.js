@@ -1,5 +1,7 @@
+
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
+
 import { onWarning } from "./error-handler";
 const lightbox = new SimpleLightbox('.gallery a', { captionDelay: 250, captionsData: 'alt' });
 const imageList = document.querySelector(".gallery");
